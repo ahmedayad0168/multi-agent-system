@@ -21,7 +21,7 @@ The project is designed as a practical multi-agent RAG system: it first tries to
 Run the Gradio interface:
 
 ```powershell
-python app/app/gradio_ui.py
+python app/gradio_ui.py
 ```
 
 Open:
@@ -123,25 +123,25 @@ DuckDuckGo search can run without an API key. Tavily search is optional.
 Place `.txt` or `.pdf` files in:
 
 ```text
-RAG/RAG/documents/
+RAG/documents/
 ```
 
 Then build the FAISS index:
 
 ```powershell
-python RAG/RAG/database.py
+python RAG/database.py
 ```
 
 The generated index and chunk data are stored in:
 
 ```text
-RAG/RAG/data/
+RAG/data/
 ```
 
 ## Run the Console App
 
 ```powershell
-python app/app/app.py
+python app/app.py
 ```
 
 Then type questions in the terminal.
@@ -149,7 +149,7 @@ Then type questions in the terminal.
 ## Run the Gradio App
 
 ```powershell
-python app/app/gradio_ui.py
+python app/gradio_ui.py
 ```
 
 Open:
@@ -157,22 +157,6 @@ Open:
 ```text
 http://127.0.0.1:7860
 ```
-
-## Generate Social Images
-
-This repository includes a script that generates project visuals for LinkedIn or GitHub:
-
-```powershell
-python scripts/generate_linkedin_images.py
-```
-
-Outputs are saved to:
-
-```text
-output/linkedin/
-```
-
-![Research pipeline](output/linkedin/04_research_pipeline_square.png)
 
 ## Testing
 
