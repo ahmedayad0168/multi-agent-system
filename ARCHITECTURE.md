@@ -26,9 +26,8 @@ The system favors local evidence first. If local retrieval produces a strong eno
 
 Files:
 
-- `app/app/gradio_ui.py`
-- `app/app/app.py`
-- `app/app/ui.py`
+- `app/gradio_ui.py`
+- `app/app.py`
 
 Responsibilities:
 
@@ -241,7 +240,7 @@ Good next places to improve the system:
 For local development:
 
 ```powershell
-python app/app/gradio_ui.py
+python app/gradio_ui.py
 ```
 
 For a public deployment, consider:
